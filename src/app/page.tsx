@@ -10,12 +10,7 @@ const page = () => {
           <Image src={"/images/2.jpg"} alt="logo" width={400} height={100} />
         </div>
         <div>
-          <Image
-            src={"/images/logo.avif"}
-            alt="logo"
-            width={200}
-            height={200}
-          />
+          <Image src={"/images/logo.png"} alt="logo" width={250} height={250} />
         </div>
       </div>
       <WheelSVG />
