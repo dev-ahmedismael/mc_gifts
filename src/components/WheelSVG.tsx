@@ -150,7 +150,7 @@ export default function WheelSVG() {
       </button>
 
       {selectedPrize && (
-        <p className="text-xl text-white font-bold text-center mt-2">
+        <p className="bg-black p-2 text-xl text-white font-bold text-center mt-2">
           🎉 مبروك! فزت بـ:{" "}
           <span className="text-green-700">{selectedPrize}</span>
         </p>

@@ -13,8 +13,9 @@ const page = () => {
           <Image src={"/images/logo.png"} alt="logo" width={250} height={250} />
         </div>
       </div>
-      <WheelSVG />
-
+      <div className="relative z-50">
+        <WheelSVG />
+      </div>
       <div
         className="absolute bottom-0 left-0 w-full h-[150px] bg-repeat-x bg-bottom"
         style={{ backgroundImage: "url('/images/1.jpg')" }}
