@@ -4,7 +4,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div className="min-h-screen flex justify-center items-center relative">
       <div className="absolute top-0 left-0 w-full flex justify-between p-5">
         <div>
           <Image src={"/images/2.jpg"} alt="logo" width={400} height={100} />
